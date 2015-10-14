@@ -5,6 +5,18 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagmentSoftware", "ProjectManagmentSoftware\ProjectManagmentSoftware.csproj", "{B3B1D5A3-D6AE-41E7-928B-CEB4EA6D3409}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{640F9CE2-0478-41C8-BE6B-8FC428D76EDF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D02CEA08-15F6-4620-81F6-E9D1C6E0DFEA}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectManagmentSoftware\SharedAssemblyInfo.cs = ProjectManagmentSoftware\SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

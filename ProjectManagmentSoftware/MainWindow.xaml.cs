@@ -23,6 +23,7 @@ namespace ProjectManagmentSoftware
         public MainWindow()
         {
             InitializeComponent();
+            VersionTb.Text = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
         }
     }
 }
