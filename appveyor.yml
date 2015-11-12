@@ -11,11 +11,15 @@ after_build:
 - cmd: packages\Tools.InnoSetup.5.5.6\tools\iscc "Installer\Installer.iss"
 artifacts:
 - path: Installer\ProjectManagmentSoftwareInstall\
+name: PMSInstall.exe
 deploy:
 - provider: GitHub
-  release: MK-v0.0.3
+tag: $(APPVEYOR_REPO_TAG_NAME)
+  release: $(APPVEYOR_REPO_TAG_NAME)
+  description: pms Release
   auth_token:
     secure: pDn59SKEUUJINiKvhTnsOMufSfa5nLAG8uViWpCqB1O2t+tuBgUtLjYV7X/U2vff
+	artifact: PMSInstall.exe
   on:
     branch: master
     configuration: Release
