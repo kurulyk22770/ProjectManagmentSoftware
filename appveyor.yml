@@ -15,7 +15,7 @@ deploy:
 - provider: GitHub
   release: MK-v0.0.3
   auth_token:
-    secure: dxXnDldxYhUSIpOtmipHvoDe77ApzWSAgwlaxo0QWlA5ACBgb2OJNSLyFFTIIQGP
+    secure: pDn59SKEUUJINiKvhTnsOMufSfa5nLAG8uViWpCqB1O2t+tuBgUtLjYV7X/U2vff
   on:
     branch: master
     configuration: Release
