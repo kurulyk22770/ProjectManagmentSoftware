@@ -19,7 +19,7 @@ deploy:
   description: pms Release
   auth_token:
     secure: pDn59SKEUUJINiKvhTnsOMufSfa5nLAG8uViWpCqB1O2t+tuBgUtLjYV7X/U2vff
-  artifact: Installer\ProjectManagmentSoftwareInstall\PMSInstall.exe.zip
+  artifact: Installer\PMSInstall.exe.zip
   on:
     branch: master
     appveyor_repo_tag: true
