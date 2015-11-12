@@ -22,4 +22,4 @@ deploy:
   artifact: PMSInstall.exe
   on:
     branch: master
-    appveyor_repo_tag: true
+    #appveyor_repo_tag: true
